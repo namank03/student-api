@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-3-d)pc#h6%vyi262v=lt3cc88ek9vm6__t19qcpabxqg=aoo1v
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'https://django-student-api-03.azurewebsites.net',
-    'django-student-api-03.azurewebsites.net',
+    'https://django-student-api.azurewebsites.net',
+    'django-student-api.azurewebsites.net',
     'localhost',
     '127.0.0.1',
 ]

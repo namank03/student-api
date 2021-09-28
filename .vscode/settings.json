@@ -1,5 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/77b3abed-aa32-4324-80b0-08f17b116268/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/django-student-api-03",
     "appService.deploySubpath": ".",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
@@ -13,5 +12,6 @@
         "--disable=C0114,C0115,CW0222"
     ],
     "python.formatting.provider": "black",
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/77b3abed-aa32-4324-80b0-08f17b116268/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/django-student-api"
 }
