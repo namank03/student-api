@@ -13,5 +13,9 @@
     ],
     "python.formatting.provider": "black",
     "git.ignoreLimitWarning": true,
-    "appService.defaultWebAppToDeploy": "/subscriptions/77b3abed-aa32-4324-80b0-08f17b116268/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/django-student-api"
+    "appService.defaultWebAppToDeploy": "/subscriptions/77b3abed-aa32-4324-80b0-08f17b116268/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/django-student-api",
+    "cSpell.words": [
+        "simplejwt",
+        "yasg"
+    ]
 }

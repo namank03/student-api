@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3-d)pc#h6%vyi262v=lt3cc88ek9vm6__t19qcpabxqg=aoo1v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'https://django-student-api.azurewebsites.net',
@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     # 'rest_framework.authtoken',
     # Adding blacklisting functionality
     'rest_framework_simplejwt.token_blacklist',
+    # 'django.contrib.staticfiles',  # required for serving swagger ui's css/js files
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
